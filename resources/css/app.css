@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Lora";
+        src: url("/fonts/Lora.ttf") format("ttf"),
+        url("/fonts/Lora.woff") format("woff"),
+        url("/fonts/Lora.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "Inter";
+        src: url("/fonts/Inter.ttf") format("ttf"),
+        url("/fonts/Inter.woff") format("woff"),
+        url("/fonts/Inter.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "RobotoMono";
+        src: url("/fonts/RobotoMono.ttf") format("ttf"),
+        url("/fonts/RobotoMono.woff") format("woff"),
+        url("/fonts/RobotoMono.woff2") format("woff2");
+    }
+}
